@@ -1,5 +1,18 @@
 # OpenWrt packages feed
 
+## Creation
+
+This fork repo was created from https://git.openwrt.org/feed/packages.git
+
+```
+git clone https://git.openwrt.org/feed/packages.git
+git remote remove origin
+git remote add origin git@github.com:violetatrium/openwrt-packages-minimos.git
+git push --set-upstream origin
+git checkout openwrt-21.02
+git push --set-upstream origin
+```
+
 ## Description
 
 This is the OpenWrt "packages"-feed containing community-maintained build scripts, options and patches for applications, modules and libraries used within OpenWrt.
